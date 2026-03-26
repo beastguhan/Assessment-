@@ -25,22 +25,22 @@ jobs:
           script: |
             echo "=== Starting Deployment ==="
 
-            # Navigate to app directory
+            
             cd ~/lt-nilavan
 
-            # Pull latest code
+            
             git pull origin main
 
-            # Install dependencies
+            
             npm install
 
-            # Build the application
+            
             npm run build
 
-            # Restart app via PM2
+           
             pm2 restart nilavan
 
-            # Save PM2 process list
+           
             pm2 save
 
             echo "=== Deployment Complete ==="
