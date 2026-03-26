@@ -1,11 +1,5 @@
 # Security Vulnerability Assessment Report
 
-**Application:** Nilavan Realtors – Next.js Contact Form App  
-**Live URL:** https://guhan.store  
-**Assessment Date:** 26 March 2026  
-**Assessed By:** Security Analyst  
-**Methodology:** Black-box + White-box (source code review + live PoC testing)  
-**Tools Used:** curl, Nginx config review, manual source code audit  
 
 ---
 
